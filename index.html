@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Etsy</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div id="container">		
+		<header>
+			<div class="top">
+				<div class="topleft">
+					<img src="http://1000logos.net/wp-content/uploads/2017/12/Etsy-Logo.png">
+					<input type="text" name="search" placeholder="Search for items or shops">
+					<button>Search</button>
+				</div>
+				<div class="topright">
+					<div class="labels">
+						<div> Sell on Etsy </div>
+						<div> Register </div>
+						<a id= "signin"> Sign In </a>
+					</div>
+					<div class="shopping-cart">
+						<img src="./assets/cart.png">
+						Cart
+					</div>
+				</div>
+			</div>
+			<div class="categories">
+				<div> Jewelry & Accessories </div>
+				<div> Clothes & Shoes </div>
+				<div> Home & Living </div>
+				<div> Wedding & Party </div>
+				<div> Toys & Entertainment </div>
+				<div> Art & Collectibles </div>
+				<div> Craft supplies & Tools </div>
+				<div> Vintage </div>
+			</div>
+			<div class="sub-categories">
+				<div> whiskey decanter </div>
+				<div> whiskey glasses </div>
+				<div> whiskey barrel </div>
+				<div> whiskey stones </div>
+				<div> whiskey glass </div>
+				<div> whiskey set </div>
+				<div> whiskey decanter set </div>
+				<div> whiskey dispenser </div>
+				<div> whisky gifts </div>
+			</div>
+		</header>
+		<aside>	
+			<div class="sidebar">
+				<div class="allcategories">
+					<h5> All categories </h5>
+						<div class="indent">
+							<div> Home & Living </div>
+							<div> Art & Collectibles </div>
+							<div> Weddings </div>
+							<div> Clothing </div>
+						</div>
+							<p> + Show more </p>
+				</div>
+				<div class="side">
+					<h5> Shipping </h5>
+						<input type="checkbox" id="Shipping1" name="Free Shipping">
+						<label for="Shipping1"> Free Shipping </label></br>
+						<input type="checkbox" id="Shipping2" name="Ready to ship in 1 business day">
+						<label for="Shipping2"> Ready to ship in 1 business day </label></br>
+						<input type="checkbox" id="Shipping3" name="Ready to ship within 3 business days">
+						<label for="Shipping3"> Ready to ship within 3 business days </label></br>
+				</div>
+				<div class="side">
+					<h5> Special Offers </h5>
+						<input type="checkbox" id="Sale" name="Special Offer">
+						<label for="Sale"> On Sale </label>
+				</div>
+				<div class="side">
+					<h5> Color </h5>
+						<div>
+							<input type="checkbox" id="Black" name="Black">
+							<label for="Black"> Black </label>
+						</div>
+							<input type="checkbox" id="Clear" name="Clear">
+							<label for="Clear"> Clear </label>
+						<div>
+							<input type="checkbox" id="White" name="White">
+							<label for="White"> White </label>
+						</div>
+							<input type="checkbox" id="Brown" name="Brown">
+							<label for="Brown"> Brown </label>
+						<div>
+							<input type="checkbox" id="Red" name="Red">
+							<label for="Red"> Red </label>
+						</div>
+							<p> + Show more </p>
+				</div>
+				<div class="side">
+					<h5> Occasion </h5>
+						<div>
+							<input type="checkbox" id="Wedding" name="Wedding">
+							<label for="Wedding"> Wedding </label>
+						</div>
+							<input type="checkbox" id="Birthday" name="Birthday">
+							<label for="Birthday"> Birthday </label>
+						<div>
+							<input type="checkbox" id="Housewarming" name="Housewarming">
+							<label for="Housewarming"> Housewarming </label>
+						</div>
+							<input type="checkbox" id="Anniversary" name="Anniversary">
+							<label for="Anniversary"> Anniversary </label>
+						<div>
+							<input type="checkbox" id="Bachelor party" name="Bachelor party">
+							<label for="Bachelor party"> Bachelor party </label>
+						</div>
+							<p> + Show more </p>
+				</div>
+				<div class="side">
+					<h5> Holiday </h5>
+						<div>
+							<input type="checkbox" id="Christmas" name="Christmas">
+							<label for="Christmas"> Christmas </label>
+						</div>
+							<input type="checkbox" id="Father's Day" name="Father's Day">
+							<label for="Father's Day"> Father's Day </label>
+						<div>
+							<input type="checkbox" id="Valentine's Day" name="Valentine's Day">
+							<label for="Valentine's Day"> Valentine's Day </label>
+						</div>
+							<input type="checkbox" id="St Patrick's Day" name="St Patrick's Day">
+							<label for="St Patrick's Day"> St Patrick's Day </label>
+						<div>
+							<input type="checkbox" id="Mother's Day" name="Mother's Day">
+							<label for="Mother's Day"> Mother's Day </label>
+						</div>
+							<p> + Show more </p>
+				</div>
+				<div class="side">
+					<h5> Material </h5>
+						<div>
+							<input type="checkbox" id="Glass" name="Glass">
+							<label for="Glass"> Glass </label>
+						</div>
+							<input type="checkbox" id="Metal" name="Metal">
+							<label for="Metal"> Metal </label>
+						<div>
+							<input type="checkbox" id="Ceramic" name="Ceramic">
+							<label for="Ceramic"> Ceramic </label>
+						</div>
+							<input type="checkbox" id="Wood" name="Wood">
+							<label for="Wood"> Wood </label>
+						<div>
+							<input type="checkbox" id="Cork" name="Cork">
+							<label for="Cork"> Cork </label>
+						</div>
+							<p> + Show more </p>
+				</div>
+				<div class="side">
+					<h5> Can be personalized </h5>
+						<div>
+							<input type="checkbox" id="yes" name="yes">
+							<label for="yes"> Yes </label>
+						</div>
+							<input type="checkbox" id="no" name="no">
+							<label for="no"> No </label>
+				</div>
+				<div class="side">
+					<h5> Shop Location </h5>
+						<div>
+							<input type="radio" id="Anywhere" name="Anywhere">
+							<label for="Anywhere"> Anywhere </label>
+						</div>
+							<input type="radio" id="US" name="US">
+							<label for="US"> United States </label>
+						<div>
+							<input type="radio" id="Custom" name="Custom">
+							<label for="Custom"> Custom </label>
+						</div>
+							<input type="text" id="Location" name="Location" placeholder="Enter location">
+				</div>
+				<div class="side">
+					<h5> Item type </h5>
+						<div>
+							<input type="radio" id="All Items" name="All Items">
+							<label for="All Items"> All items </label>
+						</div>
+							<input type="radio" id="Handmade" name="Handmade">
+							<label for="Handmade"> Handmade </label>
+						<div>
+							<input type="radio" id="Vintage" name="Vintage">
+							<label for="Vintage"> Vintage </label>
+						</div>
+				</div>
+				<div class="side">
+					<h5> Price ($) </h5>
+						<div>
+							<input type="radio" id="Any price" name="Any price">
+							<label for="Any price"> Any price </label>
+						</div>
+							<input type="radio" id="Under $25" name="Under $25">
+							<label for="Under $25"> Under $25 </label>
+						<div>
+							<input type="radio" id="$25 to $50" name="$25 to $50">
+							<label for="$25 to $50"> $25 to $50 </label>
+						</div>
+							<input type="radio" id="$50 to $100" name="$50 to $100">
+							<label for="$50 to $100"> $50 to $100 </label>
+						<div>
+							<input type="radio" id="Over $100" name="Over $100">
+							<label for="Over $100"> Over $100 </label>
+						</div>
+							<input type="radio" id="Custom" name="Custom">
+							<label for="Custom"> Custom </label>
+						<div>
+							<input type="text" id="Low" name="Low" placeholder="Low">
+							to
+							<input type="text" id="High" name="High" placeholder="High">
+						</div>
+				</div>
+				<div class="side">
+					<h5> Ordering options </h5>
+						<div>
+							<input type="checkbox" id="Accepts" name="Accepts">
+							<label for="Accepts"> Accepts Etsy gift cards </label>
+						</div>
+							<input type="checkbox" id="Gift-Wrapped" name="Gift-Wrapped">
+							<label for="Gift-Wrapped"> Can be gift-wrapped </label>
+				</div>
+				<div class="side">
+					<h5> Ship to </h5>
+						<select>
+							<option value="United States"> United States </option>
+						</select>
+				</div>
+			</div>
+		</aside>
+		<main id="content">
+
+		</main>
+	</div>
+	<script src="items.js"></script>
+	<script src="etsy.js"></script>
+</body>
+</html>
